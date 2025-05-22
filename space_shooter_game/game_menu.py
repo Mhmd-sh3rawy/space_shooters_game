@@ -29,9 +29,9 @@ def main_menu():
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
 
-        PLAY_BUTTON = Button(image=pygame.image.load("assets/Quit Rect.png"), pos=(245, 550),
+        PLAY_BUTTON = Button(image=pygame.image.load(path_load("assets/Quit Rect.png")), pos=(245, 550),
                             text_input="PLAY", font=get_font(50), base_color="#d7fcd4", hovering_color="yellow")
-        QUIT_BUTTON = Button(image=pygame.image.load("assets/Quit Rect.png"), pos=(655, 550),
+        QUIT_BUTTON = Button(image=pygame.image.load(path_load("assets/Quit Rect.png")), pos=(655, 550),
                             text_input="QUIT", font=get_font(50), base_color="#d7fcd4", hovering_color="yellow")
 
 

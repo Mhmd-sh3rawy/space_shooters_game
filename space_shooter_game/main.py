@@ -1,11 +1,12 @@
 import pygame
 import random
 from game import Game
+from loadfucntions import *
 pygame.init()
 
 yellow= (208,192,80)
 red = (230, 79, 80)
-font = pygame.font.Font("Font/monogram.ttf",40)
+font = pygame.font.Font(path_load("Font/monogram.ttf"),40)
 levelsurface = font.render("LEVEL 01",False,yellow)
 game_oversurface =font.render("GAME OVER",False ,yellow)
 resetsurface = font.render("R :TO RESERT",False,yellow)
