@@ -2,4 +2,8 @@ import os
 
 working_folder = "space_shooter_game"
 
-path_load = lambda path: f"{os.getcwd()}/{working_folder}/{path}"
+def path_load(path:str) -> str:
+    try:
+        return f"{os.getcwd()}\{working_folder}\{path}"
+    except FileNotFoundError:
+        return f"{os.getcwd()}/{working_folder}/{path}"
