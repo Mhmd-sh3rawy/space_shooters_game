@@ -3,6 +3,7 @@ from spaceship import Spaceship
 from alien import Alien
 from laser import Laser
 from alien import Mystery_ship
+from loadfucntions import *
 
 class Game:
     def __init__(self, screen_width , screen_height, offset):
@@ -26,9 +27,9 @@ class Game:
         self.alien_laser_group = pygame.sprite.Group()
         self.mystery_ship_group =pygame.sprite.GroupSingle()
         # add music
-        self.music =pygame.mixer.music.load("Sounds/music.ogg")
+        self.music =pygame.mixer.music.load(path_load("Sounds/music.ogg"))
         pygame.mixer.music.play(-1)
-        self.explotion = pygame.mixer.Sound("Sounds/explosion.ogg")
+        self.explotion = pygame.mixer.Sound(path_load("Sounds/explosion.ogg"))
 
 
 
