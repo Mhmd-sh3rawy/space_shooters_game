@@ -120,8 +120,13 @@ class Game:
     def game_over(self):
         self.run =False
 
+    def veictory(self):
+        if not self.aliens_group:
+            self.run = 2
+            self.alien_laser_group.empty()
+
     def reset(self):
-        self.run =True
+        self.run = 1
         self.lives = 3
         self.spaceship_group.sprite.reset()
         self.aliens_group.empty()
