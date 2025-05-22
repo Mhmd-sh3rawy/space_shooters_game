@@ -60,7 +60,7 @@ def screen_draw():
         game.alien_laser_group.update()
         game.mystery_ship_group.update()
         game.check_collision()
-        game.veictory()
+        game.victory()
     if game.run == 2 :
         screen.blit(game_winsurface ,(320 ,590/2))
         screen.blit(playAGAINsurface,(360,630,50,50))

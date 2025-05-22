@@ -13,7 +13,7 @@ class Game:
         self.offset = offset
         self.alien_direction = 1
         self.lives = 3
-        self.run =True
+        self.run = 1
         self.score =0
         self.high_score =0
         self.get_high_score()
@@ -118,9 +118,9 @@ class Game:
             self.high_score =0
 
     def game_over(self):
-        self.run =False
+        self.run =0
 
-    def veictory(self):
+    def victory(self):
         if not self.aliens_group:
             self.run = 2
             self.alien_laser_group.empty()
