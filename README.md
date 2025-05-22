@@ -15,18 +15,18 @@ python3 game_menu.py
 
 ```md
 space_shooter_game/
-├── assets/                # Game assets (images, etc.)
-├── Font/                  # Fonts used in the game
-├── Graphics/              # Players and enimies sprites
+├── assets/                # Game assets (Backgrounds, Buttons background, etc.)
+├── Font/                  # Font used in the game
+├── Graphics/              # Player and enimies sprites
 ├── Sounds/                # Sound effects and background music
-├── alien.py               # Alien enemy logic and class
-├── button.py              # Custom button class
+├── alien.py               # (Alien / Mystery_ship) class
+├── button.py              # custom Button class
 ├── game_menu.py           # start game menu
 ├── game.py                # Core game loop and main logic
 ├── highscore.txt          # Stores the player's high score
-├── laser.py               # Laser projectile logic
-├── loadfunctions.py       # Helper functions for loading files
-├── main.py                # game window
+├── laser.py               # Laser custom class 
+├── loadfunctions.py       # Helper functions for loading files (for Linux users)
+├── main.py                # the main game window
 ├── spaceship.py           # Spaceship behavior and controls
 ```
 
