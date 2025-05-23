@@ -12,7 +12,7 @@ python3 space_shooter_game/game_menu.py
 ---
 ## file hierarchy 
 
-> Note foe Linux users
+> Note for Linux users
 >  - For the program to work correctly you must to ensure the following hierarchy followed on your local computer:
 
 ```md
