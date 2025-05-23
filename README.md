@@ -12,7 +12,8 @@ python3 game_menu.py
 ---
 ## file hierarchy 
 
-For the program to work correctly you must to ensure the following hierarchy followed on your local computer:
+-> Note foe Linux users
+->  - For the program to work correctly you must to ensure the following hierarchy followed on your local computer:
 
 ```md
 space_shooter_project/
