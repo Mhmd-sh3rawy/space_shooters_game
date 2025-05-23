@@ -6,7 +6,7 @@ pygame.init()
 SCREEN = pygame.display.set_mode((910, 690))
 pygame.display.set_caption("Menu")
 
-BG = pygame.image.load(path_load("assets/img_230629_siwd_title_logo.webp"))
+BG = pygame.image.load(path_load("assets/space_invaders_BG.webp"))
 resizeBG = pygame.transform.scale(BG ,(900,550))
 
 def get_font(size):
