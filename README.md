@@ -4,16 +4,16 @@ game created with `pygame` with classic 8-bit assets and sprites. you can run it
 
 ```cmd
 git clone https://github.com/Mhmd-sh3rawy/space_shooters_game.git
-cd space_shooter_game/space_shooter_game/
+cd space_shooters_game/
 pip install requirements.txt
-python3 game_menu.py
+python3 space_shooter_game/game_menu.py
 ```
 
 ---
 ## file hierarchy 
 
--> Note foe Linux users
-->  - For the program to work correctly you must to ensure the following hierarchy followed on your local computer:
+> Note foe Linux users
+>  - For the program to work correctly you must to ensure the following hierarchy followed on your local computer:
 
 ```md
 space_shooter_project/
